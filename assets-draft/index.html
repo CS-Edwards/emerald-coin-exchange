@@ -4,6 +4,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Emerald Coin Exchange</title>
         <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     </head>
     <body>
         <div class="container">
@@ -28,7 +29,7 @@
                 <div class="coin">
                     <img src="images/bitcoin.png">
                     <div>
-                        <h3>$00</h3>
+                        <h3>$<span id="btc">00</span></h3>
                         <p> Bitcoin</p>
                         <p> <span class="symbol">BTC</span></p>
                     </div>
@@ -36,7 +37,7 @@
                 <div class="coin">
                     <img src="images/ethereum.png">
                     <div>
-                        <h3>$00</h3>
+                        <h3>$<span id="eth">00</span></h3>
                         <p> Ethereum</p>
                         <p> <span class="symbol">ETH</span></p>
                     </div>
@@ -44,7 +45,7 @@
                 <div class="coin">
                     <img src="images/polkadot.png">
                     <div>
-                        <h3>$00</h3>
+                        <h3>$<span id="dot">00</span></h3>
                         <p> Polkadot</p>
                         <p> <span class="symbol">DOT1-USD</span></p>
                     </div>
@@ -63,6 +64,6 @@
             </footer>
 
         </div>
-
+    <script src="script.js"></script>
     </body>
 </html>
